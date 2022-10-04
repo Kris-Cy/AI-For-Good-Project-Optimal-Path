@@ -26,6 +26,7 @@ jobs:
           pip install pandas
           pip install numpy
           pip install sklearn
+          pip install ortools==9.3.10459
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Lint with flake8
         run: |
