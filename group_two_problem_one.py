@@ -174,6 +174,7 @@ def tsp_for_one_clust(cluster):
     print(distance)
     print('')
 
+print('Hello World!')
 
 # Iterate through the list of clusters I have. For each one, run the "tsp_for_one_clust" function.
 for clust in list(set(addresses['cluster'])):
